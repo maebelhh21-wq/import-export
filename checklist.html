@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Import/Export - Checklist</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    /* Navigation */
+    #mainlist {
+      background: #0a5275;
+      padding: 15px;
+    }
+
+    #mainlist h1 {
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    #mainlist ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #mainlist ul li {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    #mainlist ul li a {
+      text-decoration: none;
+      color: #fff;
+      background: #06384f;
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    #mainlist ul li a:hover {
+      background: #0a5275;
+    }
+
+    /* Checklist */
+    .checklist {
+      max-width: 700px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .checklist h2 {
+      color: #0a5275;
+      margin-bottom: 20px;
+    }
+
+    .checklist ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .checklist li {
+      margin-bottom: 12px;
+      font-size: 16px;
+    }
+
+    .checklist input[type="checkbox"] {
+      margin-right: 10px;
+      transform: scale(1.2);
+    }
+
+    .checklist label {
+      cursor: pointer;
+    }
+
+    footer {
+      background: #06384f;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <section id="mainlist">
+     <h1>Import/Export Guide prepared by maebel</h1>
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+        <a href="general.html">General</a>
+        <a href="documentation.html">Documentation</a>
+        <a href="checklist.html">Checklist</a>
+        <a href="http://p4arm.org/app/uploads/2018/07/Mod3.5_Ethiopia-Commodity-Exchange_ECX_Asi_31.05.pdf" target="_blank">ECX PDF</a>
+        <a href="http://admin.theiguides.org/Media/Documents/Ethiopia_Customs_Guide.pdf" target="_blank">Customs Guide PDF</a>
+        <a href="https://bhel.com/sites/default/files/draft%20BL.pdf" target="_blank">ESL</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- CHECKLIST -->
+  <section class="checklist">
+    <h2>Check the Proforma Invoice</h2>
+    <form>
+      <ul>
+        <li><label><input type="checkbox"> Proforma invoice number</label></li>
+        <li><label><input type="checkbox"> Seller/Exporter address</label></li>
+        <li><label><input type="checkbox"> Buyer/Importer address</label></li>
+        <li><label><input type="checkbox"> Date of issue</label></li>
+        <li><label><input type="checkbox"> Date of expiration</label></li>
+        <li><label><input type="checkbox"> HS code</label></li>
+        <li><label><input type="checkbox"> Product</label></li>
+        <li><label><input type="checkbox"> Price</label></li>
+        <li><label><input type="checkbox"> Port of shipment</label></li>
+        <li><label><input type="checkbox"> Port of destination</label></li>
+        <li><label><input type="checkbox"> Final destination port</label></li>
+        <li><label><input type="checkbox"> Payment term</label></li>
+        <li><label><input type="checkbox"> Terms of sale</label></li>
+        <li><label><input type="checkbox"> TIN number</label></li>
+      </ul>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Import/Export Guide | All Rights Reserved
+  </footer>
+</body>
+</html>
